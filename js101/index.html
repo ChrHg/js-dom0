@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Assignment JS.10.1</title>
+		<style>
+			body{
+				font: 400 16px/1.6 arial, sans-serif;
+				text-align: center
+			}
+
+			input{
+				width: 150px;
+				margin: 0 0 24px;
+				text-align: center
+			}
+		</style>
+	</head>
+	
+	<body>
+		<form action="http://x15.dk/hitme.php" method="get">
+		<label>Vælg dato<br>
+			<input type="date" required>
+		</label><br>
+		<label>Vælg 0-6000 &deg;K<br>
+			<input type="range" min="0" max="6000" step="1">
+		</label><br>
+		<label>Indsæt tal<br>
+			<input type="number" min="0" max="100" required>
+		</label><br>
+		<input type="submit" value="Send">
+		</form>
+	</body>
+</html>
