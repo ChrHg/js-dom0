@@ -22,15 +22,15 @@
 	<body>
 		<form action="http://x15.dk/hitme.php" method="get">
 		<label>Vælg dato<br>
-			<input type="date" required>
+			<input name="dato" type="date" required>
 		</label><br>
 		<label>Vælg 0-6000 &deg;K<br>
-			<input type="range" min="0" max="6000" step="1">
+			<input name="grader" type="range" min="0" max="6000" step="1">
 		</label><br>
 		<label>Indsæt tal<br>
-			<input type="number" min="0" max="100" required>
+			<input name="tal" type="number" min="0" max="100" required>
 		</label><br>
-		<input type="submit" value="Send">
+		<input name="send" type="submit" value="Send">
 		</form>
 	</body>
 </html>
